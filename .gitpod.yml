@@ -1,0 +1,5 @@
+image: haskell:latest
+
+tasks:
+  - init: echo 'init script' # runs during prebuild
+    command: echo 'start script'
